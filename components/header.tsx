@@ -10,7 +10,7 @@ export default function Header() {
         <div className="flex items-center">
           <SidebarTrigger className="mr-4 lg:hidden" />
           <Link href="/" className="text-2xl font-bold">
-            Startup Showcase
+            DevDeck
           </Link>
         </div>
         <nav className="flex items-center space-x-4">

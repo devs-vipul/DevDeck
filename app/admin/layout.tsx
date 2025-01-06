@@ -6,8 +6,8 @@ import Header from "@/components/header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Admin Dashboard - Startup Showcase",
-  description: "Admin dashboard for Startup Showcase",
+  title: "Admin Dashboard - DevDeck",
+  description: "Admin dashboard for DevDeck",
 };
 
 export default function AdminLayout({

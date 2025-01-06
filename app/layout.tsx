@@ -8,8 +8,9 @@ import { SidebarProvider } from "@/components/ui/sidebar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Startup Showcase",
-  description: "Discover and showcase innovative projects and startups",
+  title: "DevDeck",
+  description:
+    "A platform to showcase, explore, and purchase user-created projects, empowering creators to share and innovate.",
 };
 
 export default function RootLayout({
