@@ -16,17 +16,22 @@ import {
 } from "@/components/ui/sidebar";
 import { Button } from "@/components/ui/button";
 import { Bookmark, Home, PlusCircle, Zap } from "lucide-react";
+import projects from "@/data/project-data";
 
 // Mock data for recent and saved projects
-const recentProjects = [
-  { id: 1, title: "EcoTrack" },
-  { id: 2, title: "MindfulAI" },
-];
+// const recentProjects = [
+//   { id: 1, title: "EcoTrack" },
+//   { id: 2, title: "MindfulAI" },
+// ];
 
-const savedProjects = [
-  { id: 3, title: "TechInnovate" },
-  { id: 4, title: "GreenEnergy" },
-];
+const recentProjects = projects;
+
+// const savedProjects = [
+//   { id: 3, title: "TechInnovate" },
+//   { id: 4, title: "GreenEnergy" },
+// ];
+
+const savedProjects = projects;
 
 export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);

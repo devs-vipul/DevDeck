@@ -13,29 +13,31 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import projects from "@/data/project-data";
 
 // Mock data for projects
-const allProjects = [
-  {
-    id: 1,
-    title: "EcoTrack",
-    description: "A sustainability tracking app for businesses",
-    category: "Environment",
-    likes: 42,
-    forSale: true,
-    price: 5000,
-    currency: "USD",
-  },
-  {
-    id: 2,
-    title: "MindfulAI",
-    description: "AI-powered meditation and mindfulness assistant",
-    category: "Health & Wellness",
-    likes: 38,
-    forSale: false,
-  },
-  // Add more mock projects here
-];
+const allProjects = projects;
+// const allProjects = [
+//   {
+//     id: 1,
+//     title: "EcoTrack",
+//     description: "A sustainability tracking app for businesses",
+//     category: "Environment",
+//     likes: 42,
+//     forSale: true,
+//     price: 5000,
+//     currency: "USD",
+//   },
+//   {
+//     id: 2,
+//     title: "MindfulAI",
+//     description: "AI-powered meditation and mindfulness assistant",
+//     category: "Health & Wellness",
+//     likes: 38,
+//     forSale: false,
+//   },
+//   // Add more mock projects here
+// ];
 
 export default function ProjectsPage() {
   const [searchTerm, setSearchTerm] = useState("");
